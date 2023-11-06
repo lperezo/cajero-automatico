@@ -179,7 +179,7 @@ public class Principal {
 										cuenta.setSaldo(cuenta.getSaldo()-Double.parseDouble(sCantRetiro));
 										System.out.println(impCuenta.consultar(cuenta));
 									} else {
-
+										System.out.println("Saldo insuficiente.");
 									}
 								} else {
 									System.out.println("Ingrese una cantidad válida.");
